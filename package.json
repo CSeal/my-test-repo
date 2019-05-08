@@ -1,12 +1,11 @@
 {
   "name": "test-prodj",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "My test prodj for repo",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it",
-    "build": "NODE_ENV=production babel ./src -d dist"
+    "release": "release-it"
   },
   "files": [
     "LICENSE",
