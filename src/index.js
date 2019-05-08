@@ -39,7 +39,7 @@ class RaJSONEditor extends React.Component {
       ...rest
     } = this.props;
     return (
-      <>
+      <React.Fragment>
         <Typography component="span" style={labelStyle || {marginTop: "8px", marginBottom: "8px", color: "#919191", fontSize: ".8e", lineHeight: "1em"}}>
         {label} {required && " *"}
         </Typography>
@@ -56,7 +56,7 @@ class RaJSONEditor extends React.Component {
               {...rest}
             />
           </Paper>
-      </>
+      </React.Fragment>
     );
   }
 
